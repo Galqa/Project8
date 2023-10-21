@@ -100,11 +100,11 @@ class EthernetAdapter extends Device {
 class NewDevice {
     public static void main(String[] args) {
 
-        Device device1 = new Device("Samsung", 120f, "AB1234567CD");
-        System.out.println(device1);
+        Device device = new Device("Samsung", 120f, "AB1234567CD");
+        System.out.println(device);
 
-        Monitor monitor1 = new Monitor("Samsung", 120f, "AB1234567CD", 1280, 1024);
-        System.out.println(monitor1);
+        Monitor monitor = new Monitor("Samsung", 120f, "AB1234567CD", 1280, 1024);
+        System.out.println(monitor);
 
     }
 }
